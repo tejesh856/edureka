@@ -1,0 +1,42 @@
+/*#h2tittle{
+    font-size: 100px;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(0, 174, 255);
+}*/
+.title{
+    background-color: lawngreen;
+    border:1px groove lightcoral;
+    border-bottom:5px dashed blue;
+    border-radius: 5px;
+    border-color: seagreen;
+    padding:10px;
+    padding-left:0;
+    margin:20px;
+    margin-left:0;
+    padding:10px,20px,30px,40px;
+    margin:20px,10px,5px,30px;
+    margin:30px 40px;
+
+
+
+    
+}
+
+*{
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.mandatory_fields{
+    font-weight:bold;
+}
+.container{
+    background-color: dodgerblue;
+
+}
+.header{
+    height:500px;
+    background-repeat:round;
+    background-size:cover;
+    background-image: url('https://th.bing.com/th/id/OIP.2cglVrjLk06cR3_RKwCWqQHaFO?pid=ImgDet&rs=1');
+}

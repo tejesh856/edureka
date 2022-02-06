@@ -1,20 +1,28 @@
-<htm>
+<html>
 <head>
-<tittle>Signup Form</tittle>
+    <tittle class='title'>Signup Form</tittle>
+    <link rel='stylesheet' href='fforms.css'>
+    <style>
+    /*this is a id selector*/ 
+    #h2tittle{
+        font-size:25px;
+    }
+    </style>
 </head>
 <body>
-    <h2>Signup Form </h2>
-    <form>
+    <div class='header'></div>
+    <h2 class='title' style='color:brown;'>Signup Form </h2>
+    <form class='container'>
     <div>
-        <label name='lblEmail' for='inputEmail'>Email Address</label>
+        <label class='mandatory_fields' name='lblEmail' for='inputEmail'>Email Address</label>
         <input type='email' name='inputEmail'>
     </div>
     <div>
-        <label name='lblName' for='inputName'>Name</label>
+        <label class='mandatory_fields' name='lblName' for='inputName'>Name</label>
         <input type='text' name='inputName'>
     </div>
     <div>
-        <label name='lblUserName' for='inputUserName'>Username</label>
+        <label class='mandatory_fields' name='lblUserName' for='inputUserName'>Username</label>
         <input type='text' name='inputUserName'>
     </div>
     <div>
@@ -30,7 +38,7 @@
         <input type='number' name='inputPhone'>
     </div>
     <div>
-        <label for='txtAddress'>Address</label>
+        <label class='mandatory_fields' for='txtAddress'>Address</label>
         <textarea name='txtAddress' id='txtAddress' cols='30' rows=4></textarea>
     </div>
     <div>
@@ -57,4 +65,4 @@
 
         
     </body>
-</htm>
+</html>
