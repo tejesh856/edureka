@@ -61,12 +61,12 @@
 /* Mobile */
 @media screen and (max-width:600px) {
     .title{
-        background-color: lightblue;
+        background-color:brown;
         font-size: 50px;
     }
 
     .container{
-        background-color: lightgray;
+        background-color:cadetblue;
         font-size: 30px;
     }
 }
