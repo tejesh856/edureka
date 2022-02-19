@@ -22,6 +22,7 @@
     
 }
 
+
 *{
     font-family:'Courier New', Courier, monospace;
 
@@ -39,4 +40,13 @@
     background-repeat:round;
     background-size:cover;
     background-image: url('https://th.bing.com/th/id/OIP.2cglVrjLk06cR3_RKwCWqQHaFO?pid=ImgDet&rs=1');
+}
+@media screen and (max-width:700) {
+    .title{
+        background-color:dodgerblue;
+    }
+    .container{
+        background-color: lawngreen;
+    }
+    
 }
