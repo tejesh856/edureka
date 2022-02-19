@@ -41,7 +41,7 @@
     background-size:cover;
     background-image: url('https://th.bing.com/th/id/OIP.2cglVrjLk06cR3_RKwCWqQHaFO?pid=ImgDet&rs=1');
 }
-@media screen and (max-width:500) {
+@media screen and (max-width:375) {
     .title{
         background-color:dodgerblue;
     }
