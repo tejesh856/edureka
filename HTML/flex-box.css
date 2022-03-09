@@ -1,0 +1,26 @@
+.parent{
+    background-color: rgb(255, 255, 255);
+    padding:4%;
+    margin: 2%;
+    border: 1px solid green;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.child{
+    background-color: yellow;
+    border:1px solid black;
+    margin:2%;
+    height:150px;
+    width:150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.hide{
+    /*display:none;*/
+    visibility:hidden;
+}

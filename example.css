@@ -1,0 +1,103 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('img.jpg');
+    height: 41rem;
+    width:101.2%;
+    background-size:cover;
+    background-position:center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top:-7.8px;
+    margin-left: -7.6px;
+    margin-bottom: -10px; 
+    display:flex;
+    flex-direction: column;
+
+    
+}
+.wraper{
+    width:99%;
+    height:435px;
+    display:flex;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    background-color:transparent;
+    align-items: center;
+}
+
+
+
+.grid1{
+    height:80px;
+    width:99%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 5px;    
+    background-color:transparent;
+
+    
+
+
+}
+
+.grid2{
+    width:400px;
+    height:400px;
+    box-sizing: border-box;
+    border:1px solid white;
+    background-color:transparent;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 400px;
+}
+.grid2 span:hover{
+    
+    background-color: white;
+    color: black;
+}
+.grid2 span{
+   position:absolute;
+   color: white;
+}
+
+.grid3{
+    width:400px;
+    height:400px;
+    box-sizing: border-box;
+    border:1px solid white;
+    background-color: transparent;
+    margin-left: 20px;
+    cursor: pointer;
+    content: "/2713";
+    color: black;
+    
+    
+
+}
+
+
+.grid4{
+    width:400px;
+    height:400px;
+    box-sizing: border-box;
+    border:1px solid white;
+    background-color: transparent;
+    transform: rotate(0deg);
+    margin-left: 20px;
+    
+    
+    
+}
+.grid5{
+    height:93px;
+    width:99%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-left: 5px;
+    background-color: transparent;
+}
